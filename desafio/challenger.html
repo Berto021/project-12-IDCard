@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+
+        <section class="container">
+            <div class="identification">
+                    <div class="senac-position">
+                        <img class="senac" src="/images/senac-logo-perfeita.png" alt="logo do senac">
+                    </div>
+                
+                <div class="picture-mold">
+                    <div class="picture"></div>
+                </div>
+               
+                <ul class="list1">
+                    <li class="name-list">NOME:</li>
+                    <li class="course-list">CURSO:</li>
+                </ul>
+                <ul class="list2">
+                    <li class="birthday">NASCIMENTO:</li>
+                    <li class="class">TURMA:</li>
+    
+                </ul>
+    
+                <div class="input-list1">
+                    <p class="input-name">Gatinho Trabalhador da silva jr</p>
+                    <p class="input-course">Hotelaria</p>
+                </div>
+                <p class="input-birthday">29/04/2004</p>
+                
+                <p class="input-class">2023.2</p>
+    
+                <p class="address">Avenida Niemeyer, 776, Prédio Rinaldo Delamare, 16º Andar</p>
+    
+                <p class="contact">Tel: 2018-9038, ramal :8383 | https://www.rj.senac.br</p>
+    
+                
+                
+            </div>
+        </section>
+
+
+        <div class="left-div">
+            <h1>Não perca seu tempo <br> Faça sua carteirinha digital</h1>
+            <img src="/images/time-flies-animate.svg" alt="clock" class="clock-image">
+        </div>
+        <div class="right-div">
+            <div class="register-card">
+                <h1>Registro</h1>
+                <div class="textfield">
+                    <label for="nome">Nome:</label>
+                    <input type="text" placeholder="Seu nome:" name="Nome">
+                </div>
+                <div class="textfield">
+                    <label for="nascimento">Nascimento:</label>
+                    <input type="date" name="nascimento" >
+                </div>
+                <div class="textfield">
+                    <label for="curso">Curso:</label>
+                    <input type="text" name="curso" list="faixa" >
+                    <datalist id="faixa">
+                        <option value="">cursos:</option>
+                        <option value="Hotelaria"></option>
+                        <option value="Vendas"></option>
+                        <option value="Marketing"></option>
+                      </datalist>
+                    
+                </div>
+                <div class="textfield">
+                    <label for="turma">Turma:</label>
+                    <input type="text" name="turma" list="turmas" >
+                    <datalist id="turmas">
+                        <option value="">turmas:</option>
+                        <option value="2022.1"></option>
+                        <option value="2022.2"></option>
+                        <option value="2023.1"></option>
+                        <option value="2023.2"></option>
+                        
+                      </datalist>
+                </div>
+                <div class="textfield">
+                    <label for="foto">Foto:</label>
+                    <input  name="turma" type="file">
+                </div>
+                <button class="register-button" type="submit">Criar</button>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
